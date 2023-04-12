@@ -1,0 +1,51 @@
+                        
+
+                        O
+                    
+
+                        *
+
+                       *  *
+
+
+                      *    *
+
+
+                     *      *
+
+
+                    **********                    
+
+                    **********
+                    *        *
+                    *        *
+                    *        *
+                    **********
+                 
+
+                 (.................)
+          
+
+          ------------------------------
+
+          -                            -
+
+          -                            -
+
+          -                            -
+
+          -                            -
+
+          ------------------------------
+Area of the first circle is: 12.57 square units.
+Perimeter of the first circle is: 12.57 units.
+Area of the triangle is: 25.00 square units.
+Perimeter of the triangle is: 24.14 units.
+Area of the square is: 100.00 square units.
+Perimeter of the square is: 40.00 units.
+Area of the second circle is: 804.25 square units.
+Circumference of second circle is: 100.53 units.
+Area of the rectangle is: 180.00 square units.
+Perimeter of the rectangle is: 72.00 units.
+Total Area: 1121.81 square units.
+Total Perimeter: 249.24 units.

@@ -1,0 +1,16 @@
+[word: current_score, accumulated_score]
+takes: 0.03,0.03
+multiple: -0.35,-0.32
+use: 0.1,-0.22
+need: 0.02,-0.2
+pass: 0.08,-0.12
+address: -0.04,-0.16
+pass: 0.08,-0.08
+give: 0.13,0.05
+next: 0.17,0.22
+last: 0.52,0.74
+gave: -0.16,0.58
+returning: -0.11,0.47
+
+review.txt Score: 0.47
+review.txt Stars: 3

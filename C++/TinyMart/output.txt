@@ -1,0 +1,55 @@
+Testing Cart
+============
+
+Cart Owner: John Smith
+
+[Music]
+Product ID: 1    Product Name: Yesterday
+Price: $16.50    Product Review Rate: 9.80
+Singer Name: Beetles 
+Genre: Pop
+
+[Music]
+Product ID: 2    Product Name: We are the World
+Price: $13.75    Product Review Rate: 9.10
+Singer Name: Michael Jackson
+Genre: Country
+
+[Music]
+Product ID: 6    Product Name: Lavender Haze
+Price: $13.65    Product Review Rate: 3.40
+Singer Name: Taylor Swift
+Genre: Pop
+
+[Movie]
+Product ID: 3    Product Name: Sound of Music
+Price: $22.00    Product Review Rate: 9.20
+Release Year: 1965
+Film Rating: G
+Runtime: 175
+Director Name: Robert Wise
+
+[Movie]
+Product ID: 5    Product Name: Star Wars
+Price: $22.00    Product Review Rate: 8.50
+Release Year: 1977
+Film Rating: PG
+Runtime: 120
+Director Name: George Lucas
+
+[E book]
+Product ID: 4    Product Name: The old Man and the Sea
+Price: $8.30    Product Review Rate: 9.50
+Author: Ernest Hemmingway 
+Pages: 127 
+
+[Paper book]
+Product ID: 7    Product Name: The Secret History
+Price: $17.00    Product Review Rate: 10.00
+Author: Donna Tart 
+Pages: 54 
+
+===== Summary of Purchase =====
+Total number of purchases: 7
+Total purchasing amount: $113.20
+Average cost: $16.17

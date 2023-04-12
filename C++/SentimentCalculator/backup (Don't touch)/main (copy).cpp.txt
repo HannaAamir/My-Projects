@@ -1,0 +1,122 @@
+// TODO: include at least the following C/C++ libraries
+#include <algorithm>
+#include <cstring>
+#include <fstream>
+#include <iostream>
+#include <string>
+
+using std::string;
+
+// TODO: declare constant variables
+// the max number of entries in SocialSentScore(SSS) table (6279)
+
+// TODO: declare a "social sentiment scores" data structure (struct)
+// the structure consists of two fields [word, score] where
+// word is a string type and score is double type.
+
+// TODO: define a global table of SSS which is an array of "social sentiment
+// scores" struct
+
+/* TODO: declare three functions:
+ * 1. function building the global social sentiment scores table
+ * (SocialSentScores) from the specified CSV input file
+ * 2. function returning a sentiment score of a review based on
+ *    the SocialSentScores table and the contents of the specified review file
+ * 3. function returning a star rank of the sentiment score of the specified
+ * review file
+ */
+void buildSocialSentScoresTable(string tableFileName);
+double computeSSS(string reviewFileName);
+double getStarsRank(double finalScore);
+
+/* main driver */
+int main(int argc, char *argv[]) {
+	// define and initialize the social sentiment point for the words in the
+	// review file
+
+	// define and initialize the sentiment data file to the file name
+	// ("socialsent.csv")
+
+	// Invoke a function to build the social sentiment scores table
+
+	// open the review data file.  First, set the default file name (review.txt)
+	// if the review file is provided at the command line,
+	// use that one instead of the default one
+
+	if (argc > 1) {
+		// assign argv[1] to the review file name variable,
+	}
+
+	// compute a SSS for the specified review file and display the result along
+	// with a star rank
+}
+
+/*
+ * This function opens and reads data from the specified 'csv' file.
+ * The file contains the list of scores, one per line.
+ * The function builds the global SocualSentimentScores (SSS) table
+ * using the sentiment of each word data read in line by line.
+ *
+ * @ param tableFileName the file name containing the social sentiment scores
+ * data
+ */
+void buildSocialSentScoresTable(string tableFileName) {
+	// open the social sentiment file stream
+
+	// check if the file open successfully
+
+	//* read social sensitive words and scores line by line from the specified
+	//file.
+	//* build the global soscial sensitive table from the data.
+
+	int i = 0;
+	while (getline(<file name>, <line string>)) {
+		// find the position index of ','
+
+		// extract 'word' substring starting from the beginning of the line till
+		// ',' then set it to the word field of the i-th entry in the SSS table
+
+		// read the second token (score) in the line and set it to the score
+		// field of the i-th entry in the SSS table
+		sssTable[i].score = std::stof(line.substr(startOfNextWord));
+
+		i++; // go to the next word
+	}
+	file.close();
+}
+
+/*
+ * This function opens and reads the review text from the specified review file.
+ * Then, it looks up the SSS table to find the sentiment score of each word in
+ * the file if an entry for the word is available in the table. The scores are
+ * cumulated to count the summed up final score of all the words in the review
+ * file.
+ */
+double computeSSS(string reviewFileName) {
+	// open the specified review file
+
+	// handling open() errors
+
+	// read the words in  the review file line by line
+	while (reviewFile >> word) {
+		// trim non-alphanumeric characters in the word
+		char nonAlphaNum[] = "{}[]()-.,!?\"\'";
+		for (int i = 0; i < strlen(nonAlphaNum); i++) {
+			// include <algorithm> to use std::remove()
+			word.erase(
+				std::remove(word.begin(), word.end(), nonAlphaNum[i]),
+				word.end());
+		}
+
+		// find if the word is in the table.  If so, add the score of the word
+		// to the global variable
+	}
+
+	return totalScore;
+}
+
+/*
+ * This function returns a star rank from the specified final SS score.
+ */
+double getStarsRank(double finalScore) {
+}

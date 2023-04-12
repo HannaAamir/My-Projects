@@ -1,0 +1,109 @@
+The program (TinyCalculator) prompts the user to select an arithmetic operation, then calculates and outputs the answer. The program runs until the user does not want to continue. A final running sum and average of all calculations done along with other statistics are displayed at the end.
+
+Select the operation type you would like to calculate by entering the first letter of the operation.
+(A)ddition
+(S)ubtraction
+(M)ultiplication
+(D)ivision
+(%)Modulo
+A
+You selected addition.
+Enter your first number: 111
+Enter your second number: 222
+The answer: 111 + 222 = 333
+Would you like to do another calculation - yes (Y/y) or no (N/n)?
+y
+
+Select the operation type you would like to calculate by entering the first letter of the operation.
+(A)ddition
+(S)ubtraction
+(M)ultiplication
+(D)ivision
+(%)Modulo
+S
+You selected subtraction.
+Enter your first number: 9999
+Enter your second number: 8888
+The answer: 9999 - 8888 = 1111
+Would you like to do another calculation - yes (Y/y) or no (N/n)?
+y
+
+Select the operation type you would like to calculate by entering the first letter of the operation.
+(A)ddition
+(S)ubtraction
+(M)ultiplication
+(D)ivision
+(%)Modulo
+D
+You selected division.
+Enter your first number: 83
+Enter your second number: 83
+The answer: 83 / 83 = 1
+Would you like to do another calculation - yes (Y/y) or no (N/n)?
+y
+
+Select the operation type you would like to calculate by entering the first letter of the operation.
+(A)ddition
+(S)ubtraction
+(M)ultiplication
+(D)ivision
+(%)Modulo
+%
+You selected modulo.
+Enter your first number: 84
+Enter your second number: 83
+The answer: 84 % 83 = 1
+Would you like to do another calculation - yes (Y/y) or no (N/n)?
+y
+
+Select the operation type you would like to calculate by entering the first letter of the operation.
+(A)ddition
+(S)ubtraction
+(M)ultiplication
+(D)ivision
+(%)Modulo
+D
+You selected division.
+Enter your first number: 83
+Enter your second number: 84
+The answer: 83 / 84 = 0
+Would you like to do another calculation - yes (Y/y) or no (N/n)?
+y
+
+Select the operation type you would like to calculate by entering the first letter of the operation.
+(A)ddition
+(S)ubtraction
+(M)ultiplication
+(D)ivision
+(%)Modulo
+A
+You selected addition.
+Enter your first number: 5000
+Enter your second number: 5001
+The answer: 5000 + 5001 = 10001
+Would you like to do another calculation - yes (Y/y) or no (N/n)?
+y
+
+Select the operation type you would like to calculate by entering the first letter of the operation.
+(A)ddition
+(S)ubtraction
+(M)ultiplication
+(D)ivision
+(%)Modulo
+M
+You selected multiplication.
+Enter your first number: 7
+Enter your second number: 2
+The answer: 7 * 2 = 14
+Would you like to do another calculation - yes (Y/y) or no (N/n)?
+n
+
+CALCULATOR REPORT
+Addtions: 2
+Subtractions: 1
+Multiplications: 1
+Divisions: 2
+Modulos: 1
+The total count of all operations: 7
+The running total of all operation types: 11461
+The average of total operations: 1637
